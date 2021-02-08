@@ -1,0 +1,138 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.peerIdWrapper {
+  width: 225px;
+  height: 40px;
+  /* width: 100%; */
+
+  color: white;
+  background: #3fa726;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12px 161px; */
+
+  border-radius: 10px;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.peerInputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+.peerInputWrapper span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  font-variant: small-caps;
+
+  color: #2b2b2b;
+}
+
+.peerInputWrapper input {
+  background: #ffffff;
+  border: 1px solid #cecece;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  width: 225px;
+  height: 33px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 81px;
+
+  width: 225px;
+  height: 29px;
+
+  background: #23619a;
+  border: none;
+  border-radius: 10px;
+  color: white;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  margin-bottom: 50px;
+}
+
+.button.connected {
+  background: #3fa726;
+}
+
+.button.inCall {
+  background: red;
+}
+
+.videosWrapper {
+  display: flex;
+
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
+
+  gap: 50px;
+
+  width: 100%;
+  min-height: 50vh;
+  flex-wrap: wrap;
+}
+
+.video {
+  /* width: 50%; */
+  flex: 1 1 auto;
+
+  background: #f4f4f4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.video span{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;    
+    
+    top: -30px;
+    left: 5px;
+    color: #000000;
+}
